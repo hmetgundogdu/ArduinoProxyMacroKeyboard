@@ -1,0 +1,14 @@
+{
+    "Port": "COM9",
+    "EscapeKey": "Q",
+    "Commands": [
+        "PRESS Z",
+        "RANDOM 10-100",
+        "RELEASE Z",
+        "RANDOM 250-500",
+        "PRESS R",
+        "RANDOM 10-100",
+        "RELEASE R",
+        "RANDOM 100-600"
+    ]
+}
