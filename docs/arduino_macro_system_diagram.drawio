@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram id="arduinoMacroDiagram" name="Arduino Macro System">
+    <mxGraphModel dx="2951" dy="1624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500" pageHeight="500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="csharp" value="C# Desktop App&#xa;(Config + Scenario Loader)" style="shape=folder;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="170" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="json" value="Config.json&#xa;(Port, EscapeKey, Commands)" style="shape=note;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="90" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="serial" value="Serial Communication&#xa;(COM Port)" style="shape=parallelogram;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="250" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arduino" value="Arduino Leonardo&#xa;(Macro Executor)" style="shape=process;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="250" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pc" value="PC as Keyboard Input&#xa;(Key Press / Release)" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="770" y="250" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" style="endArrow=block;html=1;" parent="1" source="csharp" target="json" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" style="endArrow=block;html=1;" parent="1" source="csharp" target="serial" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="endArrow=block;html=1;dashed=1;" parent="1" source="json" target="serial" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" style="endArrow=block;html=1;" parent="1" source="serial" target="arduino" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" style="endArrow=block;html=1;" parent="1" source="arduino" target="pc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
