@@ -3,6 +3,10 @@
 A simple and customizable macro system using **Arduino Leonardo**.  
 It allows you to run keyboard macros with normal or random delays, scenario files, and a safe exit key.
 
+## System diagram
+
+![Arduino Macro Programmer Diagram](https://github.com/hmetgundogdu/ArduinoProxyMacroKeyboard/blob/main/docs/arduino_macro_system_diagram.drawio.png?raw=true)
+
 ## Features
 - Scenario-based macro definitions  
 - `DELAY` and `RANDOM_DELAY` support  
@@ -29,6 +33,3 @@ It allows you to run keyboard macros with normal or random delays, scenario file
     ]
 }
 ```
-## System diagram
-
-![Arduino Macro Programmer Diagram](https://github.com/hmetgundogdu/ArduinoProxyMacroKeyboard/blob/main/docs/arduino_macro_system_diagram.drawio.png?raw=true)
