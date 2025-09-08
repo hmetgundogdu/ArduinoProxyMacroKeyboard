@@ -1,4 +1,4 @@
-# Arduino Macro Programmer
+# Arduino Macro Keyboard Programmer
 
 A simple and customizable macro system using **Arduino Leonardo**.  
 It allows you to run keyboard macros with normal or random delays, scenario files, and a safe exit key.
